@@ -32,10 +32,10 @@ local RayfieldLibrary = {
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
 			
-			TabBackground = Color3.fromRGB(80, 80, 80),
-			TabStroke = Color3.fromRGB(85, 85, 85),
+			TabBackground = Color3.fromRGB(138,43,226),
+			TabStroke = Color3.fromRGB(138,43,226),
 			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
-			TabTextColor = Color3.fromRGB(240, 240, 240),
+			TabTextColor = Color3.fromRGB(255,255,255),
 			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
 			
 			ElementBackground = Color3.fromRGB(35, 35, 35),
@@ -46,12 +46,12 @@ local RayfieldLibrary = {
 			
 			SliderBackground = Color3.fromRGB(43, 105, 159),
 			SliderProgress = Color3.fromRGB(138,43,226),
-			SliderStroke = Color3.fromRGB(48, 119, 177),
+			SliderStroke = Color3.fromRGB(138,43,226),
 			
 			ToggleBackground = Color3.fromRGB(30, 30, 30),
 			ToggleEnabled = Color3.fromRGB(138,43,226),
 			ToggleDisabled = Color3.fromRGB(100, 100, 100),
-			ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
+			ToggleEnabledStroke = Color3.fromRGB(138,43,226),
 			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
 			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
 			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
@@ -884,7 +884,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Title.Text = Settings.LoadingTitle or "Rayfield Interface Suite"
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Sirius"
 	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
-		LoadingFrame.Version.Text = "Rayfield UI"
+		LoadingFrame.Version.Text = "Lol"
 	end
 	Topbar.Visible = false
 	Elements.Visible = false
